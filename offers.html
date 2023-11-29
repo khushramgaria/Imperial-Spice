@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Offers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+
+  <style>
+    #header {
+        height: 55vh;
+    }
+
+    #header .title {
+        padding-top: 150px;
+    }
+
+    .offer-section {
+    padding: 50px;
+    text-align: center;
+        }
+
+        .offer {
+            margin: 30px 0;
+        }
+
+        .offer img {
+            width: 60%;
+        }
+
+        .offer h2 {
+            margin: 10px 0;
+        }
+
+        .offer-price {
+            color: #bc8c4c;
+            font-weight: bold;
+        }
+
+        .offer-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #bc8c4c;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .offer-section p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .offer h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .offer-price {
+            font-size: 18px;
+            color: #bc8c4c;
+            font-weight: bold;
+        }
+
+        .offer-section .offer h2 {
+            color: #bc8c4c;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            font-size: 40px;
+        }
+
+        @media (max-width:768px){
+            #header {
+                height: 40vh;
+            }
+
+            .offer img {
+                width: 100%;
+            }
+
+            .offer-section h1 {
+                font-size: 30px;
+            }
+        }
+        
+        #table {
+          background: url(img/bg55.png);
+        }
+
+        #table table{
+          text-align: center;
+          margin: 30px auto;
+          justify-content: center;
+          align-items: center;
+          border: dashed 2px black;
+        }
+
+        #table table tr th,
+        #table table tr td {
+          padding: 10px 50px;
+        }
+
+        #table table tr th {
+          background-color: #bc8c4c;
+          font-family: monospace;
+          font-size: 18px;
+        }
+
+        #table table tr:nth-child(odd){
+          background-color: #e0e0e0;
+        }
+        
+        #table table tr td {
+          font-family: monospace;
+          font-size: 18px;
+        }
+
+        .d-offers {
+          text-align: center;
+          margin-top: 20px;
+        }
+
+        .d-offers h1 {
+          font-family: Brush Script MT, Brush Script Std, cursive;
+          color: #bc8c4c;
+          font-size: 35px;
+        }
+
+  </style>
+  <body>
+    <!-- navbar start -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo" style="color: #bc8c4c; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 40px;">Im.Sp</label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a class="active" href="offers.html">Offers</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="" class="book-btn">Book Now</a></li>
+        </ul>
+      </nav>
+      <!-- navbar end -->
+
+    <!-- header -->
+    <section id="header">
+      <div class="title">
+          <p>Culinary Adventures at Unbeatable Prices <br>Explore Our Limited-Time Offers</p>
+      </div>
+    </section>
+    <!-- header end -->
+
+    <!-- daily offers -->
+    <section id="table">
+      <div class="d-offers">
+        <h1>Checkout Our Daily Offers</h1>
+      </div>
+      <table>
+        <tr>
+          <th>Our Daily Offers</th>
+          <th>Days</th>
+        </th>
+        <tr>
+          <td>Buy any Pizza 399/- Only</td>
+          <td>Monday</td>
+        </tr>
+        <tr>
+          <td>Buy Medium Pizza & Get Stuffed Garlic Bread <span style="color: red;">FREE</span></td>
+          <td>Tuesday</td>
+        </tr>
+        <tr>
+          <td>Buy One Medium Pizza & Get One Pizza <span style="color: red;">FREE</span></td>
+          <td>Wednesday</td>
+        </tr>
+        <tr>
+          <td>Buy One Large Pizza & Get One Pizza <span style="color: red;">FREE</span></td>
+          <td>Thrusday</td>
+        </tr>
+        <tr>
+          <td>Buy Any 2 Small Pizza 330/- Only</td>
+          <td>Friday</td>
+        </tr>
+        <tr>
+          <td>Buy Medium Pizza & Get Pasta <span style="color: red;">FREE</span></td>
+          <td>Saturday</td>
+        </tr>
+      </table>
+    </section>
+    <!-- daily offers end -->
+
+    <!-- offers -->
+    <section class="offer-section" style="background: url(img/bg55.png);">
+      
+        <h1 style="text-shadow: 2px 2px;">Indulge in Irresistible Offers</h1>
+        <div class="offer">
+            
+            <img src="img/offer1'.jpg" alt="Offer 1">
+            <h2>Weekend Brunch Extravaganza</h2>
+            <p>Experience a culinary journey with our lavish weekend brunch buffet. Delight your taste buds with a symphony of flavors.</p>
+            <p class="offer-price">Starting from $19.99 per person</p>
+            <div class="audio" style="margin-top: 10px;">
+              <audio src="img/audio.mp3" type="audio/mpeg" controls></audio>
+            </div>
+        </div>
+        <div class="offer">
+            <img src="img/offer2.jpg" alt="Offer 2">
+            <h2>Happy Hours Happiness</h2>
+            <p>Enjoy a spectacular time during our Happy Hours! Sip on exotic drinks and relish delectable appetizers while basking in joy.</p>
+            <p class="offer-price">50% off on select items | Mon-Fri, 4pm-6pm</p>
+        </div>
+    </section>
+    <!-- offers end -->
+
+     <!-- footer -->
+     <footer style="margin-top: 20px;">
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic">Opening Hours</div>
+              <p class="para">Monday - Thrusday &colon; <span>7 AM to 12 PM</span> </p>
+              <p class="para">Friday - Saturday &colon; <span>7 AM to Midnight</span> </p>
+              <p class="para">Saturday &colon; <span>9 AM to 12 PM</span> </p>
+            </div>
+          <div class="lower">
+            <div class="topic">Contact us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>+01634 22 66 11</a>
+            </div>
+            <div class="email">
+              <a href="#"><i class="fas fa-envelope"></i>imperialspice@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box">
+          <div class="topic">Quick Links</div>
+          <div><a href="index.html">Home</a></div>
+          <div><a href="about-us.html">About Us</a></div>
+          <div><a href="menu.html">Menu</a></div>
+          <div><a href="offers.html">Offers</a></div>
+          <div><a href="contact-us.html">Contact Us</a></div>
+          <div><a href="book-table.html">Book a Table</a></div>
+        </div>
+        <div class="right box">
+          <div class="topic">Join us</div>
+          <form action="#">
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </form>
+          <p class="f-p">Agree with <span><a href="">Terms & Conditions</a></span></p>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>Copyright © <a href="#">imperialspice.com</a> All rights reserved</p>
+      </div>
+    </footer>
+  <!-- footer end -->
+
+  </body>
+</html>

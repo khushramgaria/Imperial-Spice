@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Imperial Spice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+<style>
+   #header {
+    height: 55vh;
+   }
+
+   #header .title {
+    padding-top: 160px;
+   }
+
+   .contact-us {
+    background: url(img/bg55.png);
+    padding: 20px 0;
+   }
+
+   .contact-us h1 {
+    color: #bc8c4c;
+    font-size: 35px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+   }
+
+   .c-us-h {
+    text-align: center;
+    padding: 0 0 20px 0;
+   }
+   
+   .c-us-h p,
+   .c-c .c-us p {
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+   }
+
+   .c-c {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+   }
+
+   .c-c .c-us {
+    padding: 0 80px;
+   }
+
+   .c-us form input,
+   .c-us form textarea {
+    margin: 15px 0;
+    padding: 4px 6px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px black;
+   }
+
+   #submit {
+    border: none;
+    background-color: #bc8c4c;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+   #form-c {
+    border: solid 2px #bc8c4c;
+    border-radius: 20px;
+   }
+
+   @media(max-width:768px){
+    #header {
+        height: 40vh;
+    }
+
+    .c-c {
+    display: grid;
+    grid-template-columns: auto;
+   }
+   }
+
+</style>
+
+<body>
+    <!-- navbar start -->
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo" style="color: #bc8c4c; font-family: Brush Script MT, Brush Script Std, cursive; font-size: 40px;">Im.Sp</label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="offers.html">Offers</a></li>
+        <li><a class="active" href="contact-us.html">Contact</a></li>
+        <li><a href="book-table.html" class="book-btn">Book Now</a></li>
+      </ul>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- header -->
+    <section id="header">
+      <div class="title">
+          <p>Let's Connect and Create Culinary Magic Together!</p>
+      </div>
+    </section>
+    <!-- header end -->
+
+<!-- contact us -->
+    <section class="contact-us">
+        <div class="c-us-h">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us using the information below or by filling out the form.</p>
+        </div>
+        <div class="c-c">
+            <div class="c-us">
+                <h1>Email</h1>
+                <p>imperialspice@gmail.com</p>
+                <br>
+                <h1>Phone</h1>
+                <p>+01634 22 66 11</p>
+                <br>
+                <h1>Address</h1>
+                <p>Random Location, Country</p>
+                <br>
+                <h1>Instagram</h1>
+                <p>@imperial_spice</p>
+                <br>
+            </div>
+            <div class="c-us" id="form-c">
+                <h1>Get In Touch</h1>
+                <form>
+                    <input type="text" id="name"required placeholder="Name">
+                    <br>
+                    <input type="email" id="email"required placeholder="Email">
+                    <br>    
+                    <input type="text" id="subject"required placeholder="Subject">
+                    <br>
+                    <textarea id="message" rows="5" required placeholder="Message"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+<!-- contact us end -->
+
+<!-- footer -->
+<footer style="margin-top: 20px;">
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">Opening Hours</div>
+            <p class="para">Monday - Thrusday &colon; <span>7 AM to 12 PM</span> </p>
+            <p class="para">Friday - Saturday &colon; <span>7 AM to Midnight</span> </p>
+            <p class="para">Saturday &colon; <span>9 AM to 12 PM</span> </p>
+          </div>
+        <div class="lower">
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+01634 22 66 11</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>imperialspice@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">Quick Links</div>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="about-us.html">About Us</a></div>
+        <div><a href="menu.html">Menu</a></div>
+        <div><a href="offers.html">Offers</a></div>
+        <div><a href="contact-us.html">Contact Us</a></div>
+        <div><a href="book-table.html">Book a Table</a></div>
+      </div>
+      <div class="right box">
+        <div class="topic">Join us</div>
+        <form action="#">
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </form>
+        <p class="f-p">Agree with <span><a href="">Terms & Conditions</a></span></p>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>Copyright © <a href="#">imperialspice.com</a> All rights reserved</p>
+    </div>
+  </footer>
+<!-- footer end -->
+
+</body>
+</html>
